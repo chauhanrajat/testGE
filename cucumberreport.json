@@ -1,0 +1,87 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I am going to create a dummy test",
+    "line": 1,
+    "id": "i-am-going-to-create-a-dummy-test",
+    "tags": [],
+    "uri": "features\\demo.feature",
+    "elements": [
+      {
+        "id": "i-am-going-to-create-a-dummy-test;calculator-add-functionality-testing.",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Calculator add functionality testing.",
+        "tags": [
+          {
+            "name": "@calculatortesting",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "stepdefinitions\\hooks.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I ll laucnh the \"calc\" website",
+            "match": {
+              "location": "stepdefinitions\\steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ll enter two numbers \"3\" and \"5\"",
+            "match": {
+              "location": "stepdefinitions\\steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "output should be \"8\"",
+            "match": {
+              "location": "stepdefinitions\\steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2079000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
